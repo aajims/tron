@@ -1,12 +1,11 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-// import HelloWorld from '@/components/HelloWorld'
 import Home from '@/components/Home'
 import Lang from '@/components/Language'
 import Privacy from '@/components/tnc/Privacy'
 import Term from '@/components/tnc/Term'
-import Privacys from '@/components/tnc/En/Privacy'
-import Terms from '@/components/tnc/En/Term'
+import Privacys from '@/components/tnc/En/Privacys'
+import Terms from '@/components/tnc/En/Terms'
 
 Vue.use(Router)
 
@@ -35,12 +34,12 @@ export default new Router({
       component: Term
     },
     {
-      path: '/En/privacy',
+      path: '/En-privacy',
       name: 'privacys',
       component: Privacys
     },
     {
-      path: '/En/Terms',
+      path: '/En-Term',
       name: 'terms',
       component: Terms
     },
